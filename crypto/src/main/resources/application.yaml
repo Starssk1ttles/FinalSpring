@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: dedira003
+    url: jdbc:mysql://localhost:3306/crypto
+
+logging:
+  level:
+    root: warn
+    '[com.promineo': debug
